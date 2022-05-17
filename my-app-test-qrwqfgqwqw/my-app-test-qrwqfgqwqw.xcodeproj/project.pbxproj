@@ -7,102 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A00504552833768500D482BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504542833768500D482BC /* AppDelegate.swift */; };
-		A00504572833768500D482BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504562833768500D482BC /* SceneDelegate.swift */; };
-		A00504592833768500D482BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504582833768500D482BC /* ViewController.swift */; };
-		A005045C2833768500D482BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A005045A2833768500D482BC /* Main.storyboard */; };
-		A005045E2833768700D482BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A005045D2833768700D482BC /* Assets.xcassets */; };
-		A00504612833768700D482BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A005045F2833768700D482BC /* LaunchScreen.storyboard */; };
+		A00504B528337A3A00D482BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504B428337A3A00D482BC /* AppDelegate.swift */; };
+		A00504B728337A3A00D482BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504B628337A3A00D482BC /* SceneDelegate.swift */; };
+		A00504B928337A3A00D482BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00504B828337A3A00D482BC /* ViewController.swift */; };
+		A00504BC28337A3A00D482BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00504BA28337A3A00D482BC /* Main.storyboard */; };
+		A00504BE28337A3B00D482BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00504BD28337A3B00D482BC /* Assets.xcassets */; };
+		A00504C128337A3B00D482BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00504BF28337A3B00D482BC /* LaunchScreen.storyboard */; };
+		A00504CA28337A7900D482BC /* AmityUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00504C928337A7900D482BC /* AmityUIKit.framework */; };
+		A00504CB28337A7900D482BC /* AmityUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A00504C928337A7900D482BC /* AmityUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A00504CE28337A8A00D482BC /* AmitySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00504CD28337A8A00D482BC /* AmitySDK.xcframework */; };
+		A00504CF28337A8A00D482BC /* AmitySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A00504CD28337A8A00D482BC /* AmitySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A00504D128337A8E00D482BC /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00504D028337A8E00D482BC /* Realm.xcframework */; };
+		A00504D228337A8E00D482BC /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A00504D028337A8E00D482BC /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A00504CC28337A7900D482BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A00504CB28337A7900D482BC /* AmityUIKit.framework in Embed Frameworks */,
+				A00504CF28337A8A00D482BC /* AmitySDK.xcframework in Embed Frameworks */,
+				A00504D228337A8E00D482BC /* Realm.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A00504512833768500D482BC /* test-install-uikit-opensource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-install-uikit-opensource.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00504542833768500D482BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A00504562833768500D482BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A00504582833768500D482BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A005045B2833768500D482BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A005045D2833768700D482BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A00504602833768700D482BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A00504622833768700D482BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00504B128337A3A00D482BC /* my-app-test-qrwqfgqwqw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-app-test-qrwqfgqwqw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00504B428337A3A00D482BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00504B628337A3A00D482BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A00504B828337A3A00D482BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00504BB28337A3A00D482BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00504BD28337A3B00D482BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00504C028337A3B00D482BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00504C228337A3B00D482BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00504C928337A7900D482BC /* AmityUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AmityUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00504CD28337A8A00D482BC /* AmitySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmitySDK.xcframework; path = "../Amity-Social-Cloud-UIKit-iOS-OpenSource/UpstraUIKit/Shared/AmitySDK.xcframework"; sourceTree = "<group>"; };
+		A00504D028337A8E00D482BC /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "../Amity-Social-Cloud-UIKit-iOS-OpenSource/UpstraUIKit/Shared/Realm.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A005044E2833768500D482BC /* Frameworks */ = {
+		A00504AE28337A3A00D482BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00504CA28337A7900D482BC /* AmityUIKit.framework in Frameworks */,
+				A00504CE28337A8A00D482BC /* AmitySDK.xcframework in Frameworks */,
+				A00504D128337A8E00D482BC /* Realm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A00504482833768500D482BC = {
+		A00504A828337A3A00D482BC = {
 			isa = PBXGroup;
 			children = (
-				A00504532833768500D482BC /* test-install-uikit-opensource */,
-				A00504522833768500D482BC /* Products */,
+				A00504B328337A3A00D482BC /* my-app-test-qrwqfgqwqw */,
+				A00504B228337A3A00D482BC /* Products */,
+				A00504C828337A7900D482BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A00504522833768500D482BC /* Products */ = {
+		A00504B228337A3A00D482BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A00504512833768500D482BC /* test-install-uikit-opensource.app */,
+				A00504B128337A3A00D482BC /* my-app-test-qrwqfgqwqw.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A00504532833768500D482BC /* test-install-uikit-opensource */ = {
+		A00504B328337A3A00D482BC /* my-app-test-qrwqfgqwqw */ = {
 			isa = PBXGroup;
 			children = (
-				A00504542833768500D482BC /* AppDelegate.swift */,
-				A00504562833768500D482BC /* SceneDelegate.swift */,
-				A00504582833768500D482BC /* ViewController.swift */,
-				A005045A2833768500D482BC /* Main.storyboard */,
-				A005045D2833768700D482BC /* Assets.xcassets */,
-				A005045F2833768700D482BC /* LaunchScreen.storyboard */,
-				A00504622833768700D482BC /* Info.plist */,
+				A00504B428337A3A00D482BC /* AppDelegate.swift */,
+				A00504B628337A3A00D482BC /* SceneDelegate.swift */,
+				A00504B828337A3A00D482BC /* ViewController.swift */,
+				A00504BA28337A3A00D482BC /* Main.storyboard */,
+				A00504BD28337A3B00D482BC /* Assets.xcassets */,
+				A00504BF28337A3B00D482BC /* LaunchScreen.storyboard */,
+				A00504C228337A3B00D482BC /* Info.plist */,
 			);
-			path = "test-install-uikit-opensource";
+			path = "my-app-test-qrwqfgqwqw";
+			sourceTree = "<group>";
+		};
+		A00504C828337A7900D482BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00504D028337A8E00D482BC /* Realm.xcframework */,
+				A00504CD28337A8A00D482BC /* AmitySDK.xcframework */,
+				A00504C928337A7900D482BC /* AmityUIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A00504502833768500D482BC /* test-install-uikit-opensource */ = {
+		A00504B028337A3A00D482BC /* my-app-test-qrwqfgqwqw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A00504652833768700D482BC /* Build configuration list for PBXNativeTarget "test-install-uikit-opensource" */;
+			buildConfigurationList = A00504C528337A3B00D482BC /* Build configuration list for PBXNativeTarget "my-app-test-qrwqfgqwqw" */;
 			buildPhases = (
-				A005044D2833768500D482BC /* Sources */,
-				A005044E2833768500D482BC /* Frameworks */,
-				A005044F2833768500D482BC /* Resources */,
+				A00504AD28337A3A00D482BC /* Sources */,
+				A00504AE28337A3A00D482BC /* Frameworks */,
+				A00504AF28337A3A00D482BC /* Resources */,
+				A00504CC28337A7900D482BC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "test-install-uikit-opensource";
-			productName = "test-install-uikit-opensource";
-			productReference = A00504512833768500D482BC /* test-install-uikit-opensource.app */;
+			name = "my-app-test-qrwqfgqwqw";
+			productName = "my-app-test-qrwqfgqwqw";
+			productReference = A00504B128337A3A00D482BC /* my-app-test-qrwqfgqwqw.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A00504492833768500D482BC /* Project object */ = {
+		A00504A928337A3A00D482BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A00504502833768500D482BC = {
+					A00504B028337A3A00D482BC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A005044C2833768500D482BC /* Build configuration list for PBXProject "test-install-uikit-opensource" */;
+			buildConfigurationList = A00504AC28337A3A00D482BC /* Build configuration list for PBXProject "my-app-test-qrwqfgqwqw" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +150,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A00504482833768500D482BC;
-			productRefGroup = A00504522833768500D482BC /* Products */;
+			mainGroup = A00504A828337A3A00D482BC;
+			productRefGroup = A00504B228337A3A00D482BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A00504502833768500D482BC /* test-install-uikit-opensource */,
+				A00504B028337A3A00D482BC /* my-app-test-qrwqfgqwqw */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A005044F2833768500D482BC /* Resources */ = {
+		A00504AF28337A3A00D482BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00504612833768700D482BC /* LaunchScreen.storyboard in Resources */,
-				A005045E2833768700D482BC /* Assets.xcassets in Resources */,
-				A005045C2833768500D482BC /* Main.storyboard in Resources */,
+				A00504C128337A3B00D482BC /* LaunchScreen.storyboard in Resources */,
+				A00504BE28337A3B00D482BC /* Assets.xcassets in Resources */,
+				A00504BC28337A3A00D482BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A005044D2833768500D482BC /* Sources */ = {
+		A00504AD28337A3A00D482BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00504592833768500D482BC /* ViewController.swift in Sources */,
-				A00504552833768500D482BC /* AppDelegate.swift in Sources */,
-				A00504572833768500D482BC /* SceneDelegate.swift in Sources */,
+				A00504B928337A3A00D482BC /* ViewController.swift in Sources */,
+				A00504B528337A3A00D482BC /* AppDelegate.swift in Sources */,
+				A00504B728337A3A00D482BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A005045A2833768500D482BC /* Main.storyboard */ = {
+		A00504BA28337A3A00D482BC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A005045B2833768500D482BC /* Base */,
+				A00504BB28337A3A00D482BC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A005045F2833768700D482BC /* LaunchScreen.storyboard */ = {
+		A00504BF28337A3B00D482BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A00504602833768700D482BC /* Base */,
+				A00504C028337A3B00D482BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +206,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A00504632833768700D482BC /* Debug */ = {
+		A00504C328337A3B00D482BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		A00504642833768700D482BC /* Release */ = {
+		A00504C428337A3B00D482BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +322,7 @@
 			};
 			name = Release;
 		};
-		A00504662833768700D482BC /* Debug */ = {
+		A00504C628337A3B00D482BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37Z583JR6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "test-install-uikit-opensource/Info.plist";
+				INFOPLIST_FILE = "my-app-test-qrwqfgqwqw/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.amity.test-install-uikit-opensource";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.amity.my-app-test-qrwqfgqwqw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		A00504672833768700D482BC /* Release */ = {
+		A00504C728337A3B00D482BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37Z583JR6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "test-install-uikit-opensource/Info.plist";
+				INFOPLIST_FILE = "my-app-test-qrwqfgqwqw/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.amity.test-install-uikit-opensource";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.amity.my-app-test-qrwqfgqwqw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +381,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A005044C2833768500D482BC /* Build configuration list for PBXProject "test-install-uikit-opensource" */ = {
+		A00504AC28337A3A00D482BC /* Build configuration list for PBXProject "my-app-test-qrwqfgqwqw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00504632833768700D482BC /* Debug */,
-				A00504642833768700D482BC /* Release */,
+				A00504C328337A3B00D482BC /* Debug */,
+				A00504C428337A3B00D482BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A00504652833768700D482BC /* Build configuration list for PBXNativeTarget "test-install-uikit-opensource" */ = {
+		A00504C528337A3B00D482BC /* Build configuration list for PBXNativeTarget "my-app-test-qrwqfgqwqw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00504662833768700D482BC /* Debug */,
-				A00504672833768700D482BC /* Release */,
+				A00504C628337A3B00D482BC /* Debug */,
+				A00504C728337A3B00D482BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A00504492833768500D482BC /* Project object */;
+	rootObject = A00504A928337A3A00D482BC /* Project object */;
 }
